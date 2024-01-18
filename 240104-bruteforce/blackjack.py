@@ -9,7 +9,4 @@ for idx in range(N):
 
 result = sorted(list(set(result)))
 
-for idx, num in enumerate(result):
-  if num <= M:
-    print(result[idx-1])
-    break
+print(result[-1])
